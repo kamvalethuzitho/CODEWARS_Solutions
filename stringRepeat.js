@@ -1,8 +1,7 @@
-function repeatStr(s, n) {
-  var a = [];
-  while (a.length < n) {
-    a.push(s);
+function repeatStr(n, s) {
+  let str = "";
+  for (let i = 0; i < n; i++) {
+    str += s;
   }
-  return a.join(" ");
+  return str;
 }
-console.log(repeatStr(s, n));
